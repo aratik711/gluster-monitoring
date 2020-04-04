@@ -114,7 +114,7 @@ for vol in $($GLUSTER $VOLLIST); do
     done
 done
 
-##Geo-replication check
+##Geo-replication check to be done only on first active node.
 for vol in $($GLUSTER $VOLLIST); do
 	geovar="GEOREP_ACTIVE_${vol}"
 	if [ ! -z ${!geovar} ];then
