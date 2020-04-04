@@ -12,7 +12,6 @@ VOLHEAL1="volume heal"
 VOLHEAL2="info"
 GEOREP1="volume geo-replication"
 GEOREP2="status detail"
-TTL=120
 GLUSTERFS_DATA=/var/local/gluster_check
 description=""
 
